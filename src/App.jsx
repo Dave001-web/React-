@@ -13,7 +13,14 @@ import PropsChildren from "./components/PropsChildren";
 import ConditionalRendering from "./components/ConditionalRendering";
 import SimpleState from "./components/SimpleState";
 import User from "./components/User";
-
+import ComplexState from "./components/ComplexState"
+import Arrays from "./components/Arrays";
+import ExampleArray from "./components/ExampleArray"
+import SimpleEffect from "./components/SimpleEffect";
+import FetchData from "./components/FetchData";
+import FetchUser from "./components/FetchUser";
+import GetAuthors from "./components/GetAuthors";
+import Recipe from "./components/Recipe";
 function App() {
   return (
     <>
@@ -31,8 +38,16 @@ function App() {
       <LastViewed />
       <PropsChildren />
       <ConditionalRendering />  */}
-      <SimpleState />
-      <User />
+      {/* <SimpleState />
+      <User /> */}
+      {/* <ComplexState />
+      <Arrays /> */}
+      {/* <ExampleArray /> */}
+      {/* <SimpleEffect /> */}
+      {/* <FetchData /> */}
+      {/* <FetchUser /> */}
+      {/* < GetAuthors /> */}
+      {/* <Recipe /> */}
     </>
   );
 }
